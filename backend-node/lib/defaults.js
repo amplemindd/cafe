@@ -1,0 +1,20 @@
+// Default settings. Every key can be changed from Admin > Settings and is stored in MySQL (bb_settings).
+module.exports = {
+  restaurant_name: "Brew & Bite", logo_url: "", phone: "", email: "", address: "", gstin: "",
+  timezone: "Asia/Kolkata", open_time: "09:00", close_time: "23:00", week_off: "None",
+  dine_in_enabled: true, takeaway_enabled: true, delivery_enabled: true, online_enabled: false,
+  sidebar_style: "expanded", font: "Poppins", language: "English", date_format: "DD Mon YYYY", currency: "INR",
+  auto_print: true, auto_tax: true, allow_discounts: true, require_table: true,
+  default_order_type: "dine_in", default_payment_method: "cash",
+  bill_prefix: "BB-", bill_start: 1001, discount_limit_cashier: 10,
+  table_after_bill: "available", round_off: "nearest1", loyalty_per_100: 1,
+  tax_enabled: true, default_tax_rate_id: 0, tax_mode: "exclusive", show_tax_on_bill: true,
+  pm_cash: true, pm_upi: true, pm_card: true, pm_wallet: false, pm_split: true, pm_qr: true, upi_id: "", qr_image_url: "",
+  show_logo: true, show_restaurant_details: true, show_gst_details: true, show_thanks: true,
+  footer_message: "Thank you for visiting!\nGood Food, Good Mood!", paper_size: "80mm",
+  default_table_capacity: 4, table_prefix: "T",
+  n_new_order: true, n_low_stock: true, n_payment: true, n_table: true, n_daily_report: true, n_expense: true, n_system: true,
+  high_expense_threshold: 5000,
+  public_front: true, dark_mode: false,
+  backup_auto: false, backup_frequency: "daily", backup_retention: 30,
+};
